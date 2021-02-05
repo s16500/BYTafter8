@@ -1,6 +1,6 @@
 package service;
 
-import domain.Observer;
+import observer.Observer;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -56,3 +56,4 @@ public class Monitor implements Serializable {
         this.observersMap = observersMap;
     }
 }
+
